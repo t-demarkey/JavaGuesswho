@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="backroundGrid" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6; -fx-border-color: #000000; -fx-border-image-width: 10px;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.GUIController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button id="button1" fx:id="char2" mnemonicParsing="false" onAction="#onChar2Click" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+         <graphic>
+            <ImageView id="button2" fx:id="image2" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Richard.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="button2" fx:id="char3" mnemonicParsing="false" onAction="#onChar3Click" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+         <graphic>
+            <ImageView fx:id="image3" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Peter.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button id="button3" fx:id="char4" mnemonicParsing="false" onAction="#onChar4Click" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+         <graphic>
+            <ImageView fx:id="image4" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Paul.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button id="button4" fx:id="char5" mnemonicParsing="false" onAction="#onChar5Click" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+         <graphic>
+            <ImageView fx:id="image5" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Maria.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button id="button5" fx:id="char1" mnemonicParsing="false" onAction="#onChar1Click" style="-fx-background-color: transparent;" GridPane.halignment="CENTER">
+         <graphic>
+            <ImageView fx:id="image1" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Phillip.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="button6" fx:id="char6" mnemonicParsing="false" onAction="#onChar6Click" style="-fx-background-color: transparent;" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <graphic>
+            <ImageView fx:id="image6" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Joe.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button id="button7" fx:id="char7" mnemonicParsing="false" onAction="#onChar7Click" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <graphic>
+            <ImageView fx:id="image7" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/David.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button id="button8" fx:id="char8" mnemonicParsing="false" onAction="#onChar8Click" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <graphic>
+            <ImageView fx:id="image8" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Claire.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button id="button9" fx:id="char9" mnemonicParsing="false" onAction="#onChar9Click" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <graphic>
+            <ImageView fx:id="image9" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Charles.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button id="button10" fx:id="char10" mnemonicParsing="false" onAction="#onChar10Click" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <graphic>
+            <ImageView fx:id="image10" fitHeight="100.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Bernard.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button id="guessButton" fx:id="guessButton" mnemonicParsing="false" onAction="#onGuessClick" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Make Guess" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Button id="questionButton" fx:id="askQuestionButton" mnemonicParsing="false" onAction="#onAskQuestionClick" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Ask Question" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Button fx:id="startButton" alignment="CENTER" mnemonicParsing="false" onAction="#onStartButtonClick" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="Start Game" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+      <ComboBox id="questionDropDown" fx:id="questionDropDown" prefWidth="125.0" promptText="Ask Question" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" GridPane.rowIndex="2" />
+      <ComboBox id="guessDropDown" fx:id="guessDropDown" prefWidth="110.0" promptText="Guess" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <TextArea fx:id="answerText" editable="false" minWidth="-Infinity" prefHeight="100.0" prefWidth="242.0" promptText="Answer Output" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

@@ -29,4 +29,4 @@ This game recreates the classic Guess Who experience with turn-based questioning
 
 ---
 
-Thanks for taking the time to check it out! 🚀
+Thanks for taking the time to check it out! 
